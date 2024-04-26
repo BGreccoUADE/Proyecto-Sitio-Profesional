@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav {
+    background-color: #000429;
+    height: 85px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 100px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #02a7f9;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+
+h3, h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+
+.texto1, .texto2, .texto3 {
+    width: 300px;
+    height: 310px;
+    background-color: #000429;
+    padding: 20px;
+    margin: 0 10px; 
+    border: 3px solid #02a7f9; 
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.check1, .check2, .check3, .check4, .check5,
+.check6, .check7, .check8, .check9 {
+    color: #02a7f9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h3 {
+    color: #02a7f9;
+}
+
+h4 {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #000429;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.footerinicio,
+.footercontenido {
+    flex: 1;
+    padding: 0px;
+}
+
+.footerinicio h3,
+.footercontenido h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.lista {
+    list-style: none;
+    padding: 5px;
+}
+
+.lista a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.lista li {
+    margin-bottom: 15px;
+}
+
+.lista a:hover {
+    text-decoration: underline;
+}
+
+.lista li:hover::before {
+    width: 70px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.licencia {
+    position: absolute;
+    bottom: -100%;
+    right: 350px;
+    padding: 1px;
+    color: #FFFFFF;
+    font-style: italic;
+}
