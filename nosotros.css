@@ -1,14 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header, nav {
     background-color: #000429;
-    height: 85px;
     color: white;
     padding: 5px;
     display: flex;
@@ -17,9 +15,9 @@ header, nav {
 }
 
 header img {
-    height: 70px;
-    margin-left: 35px;
-    margin-top: 20px;
+    height: 50px;
+    margin: 0 10px;
+    margin-top: 10px;
 }
 
 nav ul {
@@ -27,16 +25,19 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav li {
-    margin-right: 100px; 
+    margin: 5px;
+    flex: 1;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
+    padding: 0 10px;
 }
 
 nav a:hover {
@@ -60,6 +61,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.textonosotros {
+    margin: 0;
 }
 
 .caracteristicas h4 {
@@ -127,7 +132,6 @@ h1 {
     left: -351px;
 }
 
-
 .contenedor2 {
     display: flex;
     flex-direction: column;
@@ -146,8 +150,8 @@ footer {
 
 .footerinicio,
 .footercontenido {
-    flex: 1;
     padding: 0px;
+    width: 100%;
 }
 
 .footerinicio h3,
@@ -158,7 +162,7 @@ footer {
 
 .lista {
     list-style: none;
-    padding: 5px;
+    padding: 0;
 }
 
 .lista a {
@@ -167,7 +171,7 @@ footer {
 }
 
 .lista li {
-    margin-bottom: 15px;
+    padding: 5px 0;
 }
 
 .lista a:hover {
@@ -179,14 +183,118 @@ footer {
 }
 
 footer p {
-    margin-top: 20px;
+    padding: 5px 0;
+    margin: 0;
 }
 
-.licencia {
-    position: absolute;
-    bottom: -122%;
-    right: 350px;
-    padding: 1px;
-    color: #FFFFFF;
-    font-style: italic;
+@media screen and (max-width: 768px) {
+    header img {
+        height: 40px;
+        width: 100px;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .contenedor1 {
+        margin: 30px auto;
+        width: 90%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contenedor1 h3 {
+        font-size: 16px;
+    }
+    .contenedor1 p {
+        font-size: 12px;
+    }
+    .caracteristicas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .caracteristicas h4 {
+        margin: 10px;
+        font-size: 14px;
+    }
+    .foto {
+        width: 200px;
+        border: 3px solid #FFFFFF;
+        border-radius: 10%;
+        padding: 10px;
+        margin-right: 15px;
+    }
+    .texto {
+        margin-left: 20px;
+    }
+    .iconos{
+        position: absolute;
+        margin: auto;
+        justify-content: center;
+    }
+    .iconos a, .iconos i {
+        color: #007bff; 
+        text-decoration: none; 
+        margin: 5px; 
+        font-size: 1em;
+    }
+    .escudo i {
+        position: absolute;
+        top: -277px;
+        left: -72px;
+    }
+    .rayo i {
+        position: absolute;
+        top: -240px;
+        left: -69px;
+    }
+    .informatica i {
+        position: absolute;
+        top: -205px;
+        left: -70px;
+    }
+    .interfaz i {
+        position: absolute;
+        top: -168px;
+        left: -55px;
+    }
+    .amenazas i {
+        position: absolute;
+        top: -131px;
+        left: -69px;
+    }
+    .textonosotros {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contenedor2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor2 h3 {
+        font-size: 16px;
+    }
+    .contenedor2 p {
+        font-size: 12px;
+    }
+    .contenedor2 b {
+        display: block; 
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .footerinicio h3, .footercontenido h3{
+        font-size: 18px;
+    }
+    footer p, footer a{
+        font-size: 14px;
+    }
 }
