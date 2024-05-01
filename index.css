@@ -139,7 +139,7 @@ footer p {
         width: 100px;
     }
     nav a{
-        font-size: 12px;
+        font-size: 14px;
     }
     h1 {
         font-size: 24px;
@@ -151,7 +151,7 @@ footer p {
         border-radius: 10%;
         margin: 10px auto 10px auto;
         margin-right: 5%;
-        margin-left: 5%;
+        margin-left: 1%;
     }
     .texto1, .texto2 {
         font-size: 12px; /

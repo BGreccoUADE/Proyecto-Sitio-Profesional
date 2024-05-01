@@ -193,7 +193,7 @@ footer p {
         width: 100px;
     }
     nav a{
-        font-size: 12px;
+        font-size: 14px;
     }
     h1 {
         font-size: 24px;
@@ -229,7 +229,7 @@ footer p {
         border: 3px solid #FFFFFF;
         border-radius: 10%;
         padding: 10px;
-        margin-right: 15px;
+        margin-right: -7px;
     }
     .texto {
         margin-left: 20px;
@@ -247,28 +247,28 @@ footer p {
     }
     .escudo i {
         position: absolute;
-        top: -277px;
-        left: -72px;
+        top: -275px;
+        left: -70px;
     }
     .rayo i {
         position: absolute;
-        top: -240px;
-        left: -69px;
+        top: -238px;
+        left: -64px;
     }
     .informatica i {
         position: absolute;
-        top: -205px;
-        left: -70px;
+        top: -203px;
+        left: -66px;
     }
     .interfaz i {
         position: absolute;
-        top: -168px;
-        left: -55px;
+        top: -166px;
+        left: -49px;
     }
     .amenazas i {
         position: absolute;
-        top: -131px;
-        left: -69px;
+        top: -130px;
+        left: -63px;
     }
     .textonosotros {
         text-align: center;
